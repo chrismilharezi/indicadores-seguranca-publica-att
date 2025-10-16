@@ -143,7 +143,7 @@ export default function VivianeCursos() {
             <div className="relative">
               <div className="relative z-10">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/40656EAE-763C-4E67-B6B4-0D8E9AADFA8F%20%281%29-zFwX6P2cu2wCfUjsadgTfjuqohlJy2.jpeg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/40656EAE-763C-4E67-B6B4-0D8E9AADFA8F%20%281%29-lFF5BR8aEedbRCfPmPZ9xv5v7Bivgl.jpeg"
                   alt="Viviane - Especialista em Consórcios"
                   width={500}
                   height={600}
@@ -214,12 +214,9 @@ export default function VivianeCursos() {
                     <span className="text-2xl font-bold text-slate-800">R$ 497</span>
                     <Badge className="bg-red-100 text-red-800 hover:bg-red-100">Oferta Limitada</Badge>
                   </div>
-                  <Link href="https://pay.kiwify.com.br/St8OgmJ" target="_blank">
-                    <Button className="w-full bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700 text-lg py-6 shadow-lg hover:shadow-xl transition-all">
-                      Quero Este Curso
-                      <ChevronRight className="ml-2 h-5 w-5" />
-                    </Button>
-                  </Link>
+                  <Button className="w-full bg-gray-400 text-white cursor-not-allowed text-lg py-6" disabled>
+                    Em Breve
+                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -265,7 +262,7 @@ export default function VivianeCursos() {
 
                 <div className="border-t pt-4">
                   <div className="flex items-center justify-between mb-4">
-                    <span className="text-2xl font-bold text-slate-800">R$ 397</span>
+                    <span className="text-2xl font-bold text-slate-800">R$ 599</span>
                     <Badge className="bg-violet-100 text-violet-800 hover:bg-violet-100">Best Seller</Badge>
                   </div>
                   <Link href="https://pay.kiwify.com.br/St8OgmJ" target="_blank">
@@ -318,12 +315,9 @@ export default function VivianeCursos() {
                     <span className="text-2xl font-bold text-slate-800">R$ 597</span>
                     <Badge className="bg-amber-100 text-amber-800 hover:bg-amber-100">Avançado</Badge>
                   </div>
-                  <Link href="https://pay.kiwify.com.br/St8OgmJ" target="_blank">
-                    <Button className="w-full bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700 text-lg py-6 shadow-lg hover:shadow-xl transition-all">
-                      Quero Este Curso
-                      <ChevronRight className="ml-2 h-5 w-5" />
-                    </Button>
-                  </Link>
+                  <Button className="w-full bg-gray-400 text-white cursor-not-allowed text-lg py-6" disabled>
+                    Em Breve
+                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -338,19 +332,19 @@ export default function VivianeCursos() {
                   <Zap className="mr-2 h-5 w-5" />
                   OFERTA ESPECIAL
                 </Badge>
-                <CardTitle className="text-2xl text-slate-800 mt-4">Combo Completo - Todos os 3 Cursos</CardTitle>
+                <CardTitle className="text-2xl text-slate-800 mt-4">Somente este mês </CardTitle>
                 <CardDescription className="text-lg text-slate-600">
-                  Economize R$ 594 comprando o pacote completo
+                   
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center space-y-6 relative">
                 <div className="flex items-center justify-center space-x-4">
-                  <span className="text-3xl font-bold text-slate-400 line-through">R$ 1.491</span>
+                  <span className="text-3xl font-bold text-slate-400 line-through">R$ 799,00</span>
                   <span className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-blue-600 bg-clip-text text-transparent">
-                    R$ 897
+                    R$ 599,00 
                   </span>
                 </div>
-                <p className="text-slate-600">Ou 12x de R$ 89,70 sem juros</p>
+                <p className="text-slate-600">Ou 12x de R$ 49,91 sem juros</p>
                 <Link href="https://pay.kiwify.com.br/St8OgmJ" target="_blank">
                   <Button
                     size="lg"
@@ -373,7 +367,7 @@ export default function VivianeCursos() {
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="relative">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/452118C6-11C7-4434-96A3-8448CC6AC92A-u8qG6siroDwB9a3ZlmjE2i6uvI4KCP.jpeg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/452118C6-11C7-4434-96A3-8448CC6AC92A-ZjxsJ6T8W3sCVYO5QYQTBEmIsFRXwq.jpeg"
                 alt="Viviane palestrando"
                 width={400}
                 height={500}
