@@ -147,7 +147,7 @@ export default function VivianeCursos() {
                   alt="Viviane - Especialista em Consórcios"
                   width={500}
                   height={600}
-                  className="rounded-2xl shadow-2xl"
+                  className="rounded-2xl shadow-2xl object-cover object-[70%_center]"
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-r from-violet-400 to-blue-400 rounded-full opacity-20 blur-3xl animate-pulse"></div>
@@ -333,15 +333,13 @@ export default function VivianeCursos() {
                   OFERTA ESPECIAL
                 </Badge>
                 <CardTitle className="text-2xl text-slate-800 mt-4">Somente este mês </CardTitle>
-                <CardDescription className="text-lg text-slate-600">
-                   
-                </CardDescription>
+                <CardDescription className="text-lg text-slate-600"></CardDescription>
               </CardHeader>
               <CardContent className="text-center space-y-6 relative">
                 <div className="flex items-center justify-center space-x-4">
                   <span className="text-3xl font-bold text-slate-400 line-through">R$ 799,00</span>
                   <span className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-blue-600 bg-clip-text text-transparent">
-                    R$ 599,00 
+                    R$ 599,00
                   </span>
                 </div>
                 <p className="text-slate-600">Ou 12x de R$ 49,91 sem juros</p>
