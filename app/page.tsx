@@ -33,10 +33,10 @@ import Link from "next/link"
 
 export default function VivianeCursos() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="bg-white">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex items-center space-x-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-violet-600 to-blue-600">
               <Crown className="h-6 w-6 text-white" />
@@ -75,10 +75,10 @@ export default function VivianeCursos() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-violet-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+      <section className="py-12 md:py-20 lg:py-24 bg-gradient-to-br from-violet-50 via-blue-50 to-indigo-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-violet-600/5 to-blue-600/5"></div>
-        <div className="container px-4 md:px-6 relative">
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+          <div className="grid gap-8 lg:gap-12 xl:gap-16 lg:grid-cols-2 items-center">
             <div className="space-y-8">
               <div className="space-y-6">
                 <Badge className="w-fit bg-gradient-to-r from-violet-100 to-blue-100 text-violet-800 hover:from-violet-100 hover:to-blue-100 border-0">
@@ -140,14 +140,15 @@ export default function VivianeCursos() {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="relative z-10">
+            <div className="relative order-first lg:order-last">
+              <div className="relative z-10 max-w-md mx-auto lg:max-w-none">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/40656EAE-763C-4E67-B6B4-0D8E9AADFA8F%20%281%29-lFF5BR8aEedbRCfPmPZ9xv5v7Bivgl.jpeg"
                   alt="Viviane - Especialista em Consórcios"
                   width={500}
                   height={600}
-                  className="rounded-2xl shadow-2xl object-cover object-[70%_center]"
+                  className="rounded-2xl shadow-2xl w-full h-auto object-cover object-[75%_center]"
+                  priority
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-r from-violet-400 to-blue-400 rounded-full opacity-20 blur-3xl animate-pulse"></div>
@@ -158,8 +159,8 @@ export default function VivianeCursos() {
       </section>
 
       {/* Cursos Section */}
-      <section id="cursos" className="py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+      <section id="cursos" className="py-12 md:py-20 lg:py-32">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="text-center space-y-4 mb-16">
             <Badge className="w-fit mx-auto bg-gradient-to-r from-violet-100 to-blue-100 text-violet-800 hover:from-violet-100 hover:to-blue-100 border-0">
               <Sparkles className="mr-2 h-4 w-4" />
@@ -173,7 +174,7 @@ export default function VivianeCursos() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3 max-w-7xl mx-auto">
+          <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
             {/* Curso 1 */}
             <Card className="border-2 border-slate-200 hover:border-violet-300 transition-all duration-300 hover:shadow-xl group">
               <CardHeader className="pb-4">
@@ -360,9 +361,9 @@ export default function VivianeCursos() {
       </section>
 
       {/* Sobre Viviane */}
-      <section id="sobre" className="py-20 md:py-32 bg-gradient-to-br from-slate-50 to-violet-50">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+      <section id="sobre" className="py-12 md:py-20 lg:py-32 bg-gradient-to-br from-slate-50 to-violet-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid gap-8 lg:gap-12 xl:gap-16 lg:grid-cols-2 items-center">
             <div className="relative">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/452118C6-11C7-4434-96A3-8448CC6AC92A-ZjxsJ6T8W3sCVYO5QYQTBEmIsFRXwq.jpeg"
@@ -442,8 +443,8 @@ export default function VivianeCursos() {
       </section>
 
       {/* Depoimentos */}
-      <section id="depoimentos" className="py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+      <section id="depoimentos" className="py-12 md:py-20 lg:py-32">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="text-center space-y-4 mb-16">
             <Badge className="w-fit mx-auto bg-gradient-to-r from-violet-100 to-blue-100 text-violet-800 hover:from-violet-100 hover:to-blue-100 border-0">
               <MessageCircle className="mr-2 h-4 w-4" />
@@ -457,7 +458,7 @@ export default function VivianeCursos() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-violet-50/30">
               <CardHeader>
                 <div className="flex items-center space-x-1 mb-2">
@@ -639,8 +640,8 @@ export default function VivianeCursos() {
       </section>
 
       {/* Formulário de Contato */}
-      <section id="contato" className="py-20 md:py-32 bg-gradient-to-br from-violet-50 to-blue-50">
-        <div className="container px-4 md:px-6">
+      <section id="contato" className="py-12 md:py-20 lg:py-32 bg-gradient-to-br from-violet-50 to-blue-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-4 mb-12">
               <Badge className="w-fit mx-auto bg-gradient-to-r from-violet-100 to-blue-100 text-violet-800 hover:from-violet-100 hover:to-blue-100 border-0">
@@ -726,8 +727,8 @@ export default function VivianeCursos() {
       </section>
 
       {/* Garantia */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-50 to-violet-50">
-        <div className="container px-4 md:px-6">
+      <section className="py-12 md:py-20 lg:py-32 bg-gradient-to-br from-blue-50 to-violet-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
           <div className="max-w-4xl mx-auto text-center">
             <div className="space-y-8">
               <div className="flex justify-center">
@@ -778,9 +779,9 @@ export default function VivianeCursos() {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 md:py-32 bg-gradient-to-r from-violet-600 via-purple-600 to-blue-600 text-white relative overflow-hidden">
+      <section className="py-12 md:py-20 lg:py-32 bg-gradient-to-r from-violet-600 via-purple-600 to-blue-600 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-violet-600/90 to-blue-600/90"></div>
-        <div className="container px-4 md:px-6 text-center relative">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl text-center relative">
           <div className="space-y-8 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               Não Perca Esta Oportunidade Única
@@ -854,8 +855,8 @@ export default function VivianeCursos() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-16">
-        <div className="container px-4 md:px-6">
+      <footer className="bg-slate-900 text-white py-12 md:py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
