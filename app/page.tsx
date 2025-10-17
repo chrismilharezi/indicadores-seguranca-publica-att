@@ -140,7 +140,7 @@ export default function VivianeCursos() {
               </div>
             </div>
 
-            <div className="relative order-first lg:order-last">
+            <div className="relative order-last">
               <div className="relative z-10 max-w-md mx-auto lg:max-w-none">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/40656EAE-763C-4E67-B6B4-0D8E9AADFA8F%20%281%29-lFF5BR8aEedbRCfPmPZ9xv5v7Bivgl.jpeg"
